@@ -1,0 +1,88 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: wheat;
+    font-weight: 1.5;
+}
+
+header{
+    position: sticky;
+    background-color: lightgoldenrodyellow;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content:flex-end;
+
+}
+nav ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    justify-content: flex-end;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: red;
+}
+
+section{
+    background-color: lightsalmon;
+    border-radius: 8px;
+    border: 3px solid green;
+    padding: 20px 40px;
+    text-align: center;
+    margin: 0 auto;
+    width: 900px;
+}
+
+
+#beranda img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.tombol{
+    text-decoration: none;
+    color: black;
+    background-color: pink;
+    border-radius: 10px;
+    padding: 10px;
+}
+.tombol:hover{
+    color: red;
+    background-color: white;
+}
+.kotak-tentang{
+    display: flex;
+    gap: 15px;
+}
+.kotak-tentang img{
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+
+}
+.keahlianku{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+
+}
+.kartu{
+    border: 1px solid black;
+    gap: 20px;
+}
+.kartu img{
+    width: 200px;
+    height: 150px;
+}
+
+footer{
+    background-color: blanchedalmond;
+    text-align: center;
+}
