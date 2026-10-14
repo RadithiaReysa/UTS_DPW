@@ -71,15 +71,21 @@ section{
 .keahlianku{
     display: grid;
     grid-template-columns:repeat(3, 1fr);
+    gap: 20px;
+    
 
 }
 .kartu{
-    border: 1px solid black;
+    border: 2px solid black;
     gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
 }
 .kartu img{
     width: 200px;
     height: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 footer{
